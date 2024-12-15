@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML & CSS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <aside class="sidebar-container">
+        <div class="sidebar-center wrapper">
+          <div class="side-header">
+          
+            </div>
+            
+          </div>
+          <div class="sidebar-content">
+            <div class="sidebar-links-main paddingTopMobile-fifty">
+              <ol class="sidebar"><br><br>
+                <li><a class="heading" href="./index.html.html" ><h1>HTML & CSS</h1></a></li><br>
+                <li><a class="nav-link" href="./lesson 1.html">Lesson 1 <br> Building Your First Web Page</a></li><br>
+                <li><a class="nav-link" href="./lesson 2.html">Lesson 2 <br>Getting to Know HTML</a></li><br>
+                <li><a class="nav-link" href="./lesson 3.html">Lesson 3 <br> Getting to Know CSS</a></li><br>
+                <li><a class="nav-link" href="./lesson 4.html">Lesson 4 <br>Opening the Box Model</a></li><br>
+                <li><a class="nav-link" href="./lesson 5.html">Lesson 5 <br> Positioning Content</a></li><br>
+                <li><a class="nav-link" href="./lesson 6.html">Lesson 6 <br> Working with Typography</a></li><br>
+                <li><a class="nav-link" href="./lesson 7.html">Lesson 7 <br> Setting Backgrounds & Gradients</a></li><br>
+                <li><a class="nav-link" href="./lesson 8.html">Lesson 8 <br> Creating Lists</a></li><br>
+                <li><a class="nav-link" href="./lesson 9.html">Lesson 9 <br> Adding Media</a></li><br>
+                <li><a class="nav-link" href="./lesson 10.html">Lesson 10 <br> Building Forms</a></li><br>
+                <li>Learn to Code HTML & CSS is <br> written by designer & front-end <br> developer Shay Howe.</li><br><br>
+                <li>Checkout Learn to Code Advanced <br> HTML & CSS for a deeper look at <br> front-end design & development.</li><br><br>
+                <li>Want to learn to more HTML & CSS, <br> or study other topics? Find the <br> right course for you.</li><br><br>
+                <li><input type="text" placeholder="Get Course Recommendations"></li><br><br>
+              </ol>
+            </div>
+               </div>
+        </div>
+      </aside>
+    <div class="content">
+        <p>Lesson 1</p>
+        <h1>Performance & Organization </h1>
+
+       <p> Having the ability to write HTML and CSS with a solid understanding is a great expertise <br>
+         to have. As a website’s code base and traffic grows, a new skill set comes into play, one <br>
+          that is extremely important to both development time and user experience. Knowing <br>
+           the fundamentals of website performance and organization can go a long way.</p>
+
+<p>The organization and architecture of a code base can greatly affect not only the speed <br>
+     of development, but also the speed at which pages render. Both of which can be <br>
+      sizeable concerns not only for developers but also users. Taking the time to design the <br>
+       right structure for a code base, and identify how all of the different components will <br>
+        work together, can speed up production and make for a better experience all around.</p>
+
+<p>Additionally, taking a few small steps to improve the performance of a website can pay <br>
+     off in dividends. Website performance greatly resembles the 80/20 rule, where 20% of <br>
+      the optimizations will speed up roughly 80% of the website.</p>
+
+<h1 id="veera">Strategy & Structure</h1>
+<p>The first part to improving a website’s performance and organization revolves around <br>
+     identifying a good strategy and structure for developing the code base. Specifically,<br>
+      building a strong directory architecture, outlining design patterns, and finding ways to <br>
+       reuse common code.</p>
+
+ <h1>Style Architecture</h1>
+<p>Exactly how to organize styles boils down to personal preference and what is best for a <br>
+     given website but generally speaking there are best practices to follow. One practice <br>
+      includes separating styles based on intent, which includes creating directories for <br>
+       common base styles, user interface components, and business logic modules.</p>
+
+       <p>The architecture outlined above includes three directories, all with individual groups of <br>
+         styles. The goal here is to start thinking of websites as systems rather than individual <br>
+          pages, and the code architecture should reflect this mindset. Notice how there aren’t <br>
+          any page specific styles here.</p>
+
+<p>The base directory includes common styles and variables to be used across the entire <br>
+     website, layout and typography styles for example. The components directory includes <br>
+      styles for specific user interface elements which are broken down into different <br>
+       component files such as alerts and buttons. Lastly, the modules directory includes <br>
+        styles for different sections of a page, which are determined by business needs.</p>
+
+<p>The component styles are purely interface driven and have nothing to do with the core <br>
+     business logic of the website. Modules then include styles specific to the business logic. <br>
+      When marking up a module in HTML it is common to use different user interface <br>
+       components within it. For example, the sidebar of a page may have list and button styles <br>
+        that are defined within component styles while other styles needed for the sidebar are <br>
+         inherited from the module style. The separation of style encourages well thought out <br>
+          presets and the ability for styles to be widely shared and reused.</p>
+
+<p>The strategy of organizing styles this way isn’t exactly new, and has been previously <br>
+     mentioned in different CSS methodologies including Object Oriented CSS, OOCSS, and <br>
+      the Scalable and Modular Architecture for CSS, SMACSS. These methodologies have <br>
+       their own opinions on structure, as well as on how to use styles.</p>
+
+<h1>Object Oriented CSS</h1>
+<p>The Object Oriented CSS methodology was pioneered by Nicole Sullivan in her work <br>
+     with writing styles for larger websites. Object Oriented CSS identifies two principles that <br>
+      will help build scalable websites with a strong architecture and a reasonable amount of <br>
+       code. These two principles include:</p>
+<ul>
+<li>Separate structure from skin</li>
+<li>Separate content from container</li>
+</ul>
+<p>Overall separating structure from skin includes abstracting the layout of an element <br>
+     away from the theme of a website. The structure of a module should be transparent, <br>
+      allowing other styles to be inherited and displayed without conflict. Most commonly <br>
+       this requires a solid grid and layout structure, along with well crafted modules.</p>
+
+<p>Separating content from the container involves removing the dependency of a parent <br>
+     element nesting children elements. A heading should look the same regardless of its <br>
+      parent container. To accomplish this, elements need to inherit default styles, then be <br>
+       extended with multiple classes as necessary.</p>
+
+      <h1 id="veera"> Image Compression</h1>
+<p>Cutting down the size of a text file helps, but you get even better results by compressing <br>
+     the file size of images. The total file size of all the images across a website can quickly <br>
+      add up, and compressing images will greatly help keep the file size under control.</p>
+
+<p>Many people steer away from compressing images in fear that compression involves <br>
+     reducing the quality of the image itself. For the most part this is incorrect, and images <br>
+      can be compressed in a lossless fashion, allowing unnecessary color profiles and <br>
+       comments to be removed from the image without changing the quality of the image at all.</p>
+
+<p>There are a handful of tools to help compress images, two of the best are ImageOptim <br>
+     for Mac and PNGGauntlet for Windows. Both of these services compress the most <br>
+      commonly used image formats, specifically JPG and PNG files.</p>
+
+      <div>
+        <img src="https://learn.shayhowe.com/assets/images/courses/advanced-html-css/performance-organization/ocean-uncompressed.jpg" alt="">
+        <img src="https://learn.shayhowe.com/assets/images/courses/advanced-html-css/performance-organization/ocean-compressed.jpg" alt="">
+      </div>
+    </div>
+</body>
+</html>

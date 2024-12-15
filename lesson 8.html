@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML & CSS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <aside class="sidebar-container">
+        <div class="sidebar-center wrapper">
+          <div class="side-header">
+          
+            </div>
+            
+          </div>
+          <div class="sidebar-content">
+            <div class="sidebar-links-main paddingTopMobile-fifty">
+              <ol class="sidebar"><br><br>
+                <li><a class="heading" href="./index.html.html" ><h1>HTML & CSS</h1></a></li><br>
+                <li><a class="nav-link" href="./lesson 1.html">Lesson 1 <br> Building Your First Web Page</a></li><br>
+                <li><a class="nav-link" href="./lesson 2.html">Lesson 2 <br>Getting to Know HTML</a></li><br>
+                <li><a class="nav-link" href="./lesson 3.html">Lesson 3 <br> Getting to Know CSS</a></li><br>
+                <li><a class="nav-link" href="./lesson 4.html">Lesson 4 <br>Opening the Box Model</a></li><br>
+                <li><a class="nav-link" href="./lesson 5.html">Lesson 5 <br> Positioning Content</a></li><br>
+                <li><a class="nav-link" href="./lesson 6.html">Lesson 6 <br> Working with Typography</a></li><br>
+                <li><a class="nav-link" href="./lesson 7.html">Lesson 7 <br> Setting Backgrounds & Gradients</a></li><br>
+                <li><a class="nav-link" href="./lesson 8.html">Lesson 8 <br> Creating Lists</a></li><br>
+                <li><a class="nav-link" href="./lesson 9.html">Lesson 9 <br> Adding Media</a></li><br>
+                <li><a class="nav-link" href="./lesson 10.html">Lesson 10 <br> Building Forms</a></li><br>
+                <li>Learn to Code HTML & CSS is <br> written by designer & front-end <br> developer Shay Howe.</li><br><br>
+                <li>Checkout Learn to Code Advanced <br> HTML & CSS for a deeper look at <br> front-end design & development.</li><br><br>
+                <li>Want to learn to more HTML & CSS, <br> or study other topics? Find the <br> right course for you.</li><br><br>
+                <li><input type="text" placeholder="Get Course Recommendations"></li><br><br>
+              </ol>
+            </div>
+               </div>
+        </div>
+      </aside>
+      <div class="content">
+        <p>Lesson 8</p>
+        <h1>Creating Lists</h1>
+       <p> Lists are a part of everyday life. To-do lists determine what to get done. Navigational routes provide turn-by-turn lists of directions. Recipes provide lists of ingredients and lists of instructions. With a list for nearly everything, it’s easy to understand why they are also popular online.</p>
+
+      <p>When we want to use a list on a website, HTML provides three different types to choose from: unordered, ordered, and description lists. Choosing which type of list to use—or whether to use a list at all—comes down to the content and the most semantically appropriate option for displaying that content.</p>
+
+<p>In addition to the three different types of lists available within HTML, there are multiple ways to style these lists with CSS. For example, we can choose what type of marker to use on a list. The marker could be square, round, numeric, alphabetical, or perhaps nonexistent. Also, we can decide if a list should be displayed vertically or horizontally. All of these choices play significant roles in the styling of our web pages.</p>
+
+<h1>Unordered Lists</h1>
+
+<p>An unordered list is simply a list of related items whose order does not matter. Creating an unordered list in HTML is accomplished using the unordered list block-level element. Each item within an unordered list is individually marked up using the list item element.</p>
+
+<p>By default, most browsers add a vertical margin and left padding to the element and precede each  element with a solid dot. This solid dot is called the list item marker, and it can be changed using CSS.</p>
+
+<h3 id="veera">Ordered Lists</h3>
+
+<p>The ordered list element works very much like the unordered list element; individual list items are created in the same manner. The main difference between an ordered list and an unordered list is that with an ordered list, the order in which items are presented is important.</p>
+
+<p>Because the order matters, instead of using a dot as the default list item marker, an ordered list uses numbers.</p>
+
+<h3 id="veera">Start Attribute</h3>
+
+<p>The start attribute defines the number from which an ordered list should start. By default, ordered lists start at 1. However, there may be cases where a list should start at 30 or another number. When we use the start attribute on the element, we can identify exactly which number an ordered list should begin counting from.</p>
+
+<p>The start attribute accepts only integer values, even though ordered lists may use different numbering systems, such as roman numerals.</p>
+
+<h3 id="veera">Description Lists</h3>
+
+<p>Another type of list seen online (but not as often as unordered or ordered lists) is the description list. Description lists are used to outline multiple terms and their descriptions, as in a glossary, for example.</p>
+
+<p>Creating a description list in HTML is accomplished using the description list block-level element. Instead of using a element to mark up list items, the description list requires two block-level elements: the description term element and the description element.</p>
+
+<p>A description list may contain numerous terms and descriptions, one after the other. Additionally, a description list may have multiple terms per description, as well as multiple descriptions per term. A single term may have multiple meanings and warrant multiple descriptions. Conversely, a single description may be suitable for multiple terms.</p>
+
+<p>When adding a description list, the element must come before the element. The definition term and the description that directly follows it correspond to one another; thus, the order of these elements is important.</p>
+
+<p>By default, the element will include vertical margins, just like the elements. Additionally, the element includes a left margin by default.</p>
+
+<h1>Nesting Lists</h1>
+
+<p>One feature that makes lists extremely powerful is their ability to be nested. Every list may be placed within another list; they can be nested continually. But the potential to nest lists indefinitely doesn’t provide free rein to do so. Lists should still be reserved specifically for where they hold the most semantic value.</p>
+
+<p>One trick with nesting lists is to know where to begin and end each list and list item. Speaking specifically about unordered and ordered lists, as that is where most nesting will occur, the only element that may reside directly within the elements is the element. To repeat, the only element we can place as a direct child of the elements is the element.</p>
+
+<p>That said, once inside the element, the standard set of elements may be added, including any elements.</p>
+
+<p>To nest a list rather than closing a list item, begin a new list. Once the nested list is complete and closed, close the wrapping list item and continue on with the original list.</p>
+
+</div>
+   
+    
+</body>
+</html>

@@ -1,0 +1,96 @@
+body{
+    background-color:whitesmoke;
+}
+.sidebar-container{
+    background-color: black;
+    color: antiquewhite;
+    margin-right: 80%;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content:space-between;
+}
+.veera{
+    border: 1px solid black;
+
+}
+aside{
+    position: fixed;
+    overflow: scroll;
+    height: 800px;
+}
+a{
+    text-decoration: none;
+}
+aside a:hover{
+    color: green;
+}
+aside ol { 
+    list-style-type: none;
+}
+.heading{
+    color: aliceblue;
+    text-align: center;
+
+}
+.nav-link{
+    color:white;
+    padding-top: 10px;
+    padding-left:10px ;
+    display: block;
+    text-align: left;
+}
+input{
+    padding:20px;
+}
+.content{
+    margin-left: 25%;
+    margin-right: 35%;
+}
+input ::placeholder{
+    color: rgb(31, 251, 31);
+}
+.htm{
+    padding: 20px 50px;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    margin-left: 5%;
+    background-color: tomato;
+}
+.html{
+    padding: 20px 45px;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    margin-left: 5%;
+    background-color: rgb(57, 57, 207);
+    color: white;
+
+}
+ #html{
+    border: 1px solid black;
+    padding: 5px;
+    margin-right:0% ;
+    margin-bottom: 5%;
+} 
+/* .img-container{
+    position: static;
+    float: right;
+    width:50%;
+
+} */
+ .ht{
+    padding: 20px 80px;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    margin-left: 5%;
+    background-color:rgb(58, 14, 234) ;
+    color: white;
+ }
+ #veera{
+    color: rgb(84, 160, 8);
+ }
+ #vee{
+    color: black;
+ }

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML & CSS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <aside class="sidebar-container">
+        <div class="sidebar-center wrapper">
+          <div class="side-header">
+          
+            </div>
+            
+          </div>
+          <div class="sidebar-content">
+            <div class="sidebar-links-main paddingTopMobile-fifty">
+              <ol class="sidebar"><br><br>
+                <li><a class="heading" href="./index.html.html" ><h1>HTML & CSS</h1></a></li><br>
+                <li><a class="nav-link" href="./lesson 1.html">Lesson 1 <br> Building Your First Web Page</a></li><br>
+                <li><a class="nav-link" href="./lesson 2.html">Lesson 2 <br>Getting to Know HTML</a></li><br>
+                <li><a class="nav-link" href="./lesson 3.html">Lesson 3 <br> Getting to Know CSS</a></li><br>
+                <li><a class="nav-link" href="./lesson 4.html">Lesson 4 <br>Opening the Box Model</a></li><br>
+                <li><a class="nav-link" href="./lesson 5.html">Lesson 5 <br> Positioning Content</a></li><br>
+                <li><a class="nav-link" href="./lesson 6.html">Lesson 6 <br> Working with Typography</a></li><br>
+                <li><a class="nav-link" href="./lesson 7.html">Lesson 7 <br> Setting Backgrounds & Gradients</a></li><br>
+                <li><a class="nav-link" href="./lesson 8.html">Lesson 8 <br> Creating Lists</a></li><br>
+                <li><a class="nav-link" href="./lesson 9.html">Lesson 9 <br> Adding Media</a></li><br>
+                <li><a class="nav-link" href="./lesson 10.html">Lesson 10 <br> Building Forms</a></li><br>
+                <li>Learn to Code HTML & CSS is <br> written by designer & front-end <br> developer Shay Howe.</li><br><br>
+                <li>Checkout Learn to Code Advanced <br> HTML & CSS for a deeper look at <br> front-end design & development.</li><br><br>
+                <li>Want to learn to more HTML & CSS, <br> or study other topics? Find the <br> right course for you.</li><br><br>
+                <li><input type="text" placeholder="Get Course Recommendations"></li><br><br>
+              </ol>
+            </div>
+               </div>
+        </div>
+      </aside>
+      <div class="content">
+        <p>Lesson 9</p>
+        <h1>Adding Media</h1>
+
+        <p>We browse the Internet in search of interesting and informative content, which we usually find in the form of plain text. To accompany this plain text, HTML provides ways to embed rich media in the form of images, audio tracks, and videos, as well as to embed content from another web page in the form of an inline frame.</p>
+
+        <p>The ability to include images, audio tracks, videos, and inline frames within websites has been around for some time. Browser support for images and inline frames has generally been pretty good. And while the ability to add audio tracks and videos to a website has been around for years, the process has been fairly cumbersome. Fortunately, this process has improved and is much easier with support directly from HTML.</p>
+        
+        <p>Today, we can freely use images, audio, video, and inline frames knowing that this content is supported across all major browsers.</p>
+        
+        <h1>Adding Images</h1>
+      <p>To add images to a page, we use the inline element. The element is a self-containing, or empty, element, which means that it doesn’t wrap any other content and it exists as a single tag. For the element to work, a src attribute and value must be included to specify the source of the image. The src attribute value is a URL, typically relative to the server where a website is hosted.</p>
+        
+      <p>In conjunction with the src attribute, the alt (alternative text) attribute, which describes the contents of an image, should be applied. The alt attribute value is picked up by search engines and assistive technologies to help convey the purpose of an image. The alt text will be displayed in place of the image if for some reason the image is not available.</p>
+
+      <h3 id="veera">Sizing Images</h3>
+<p>It is important to identify the size of an image in order to tell the browser how large the image should be before the page even loads; thus the browser can reserve space for the image and render the page faster. There are a few different ways to size images so that they work well on a page. One option is to use the width and height attributes directly within the  tag in HTML.</p>
+
+<p>Additionally, images may be sized using the width and height properties in CSS. When both the HTML attributes and CSS properties are used, the CSS attributes will take precedence over the HTML attributes.</p>
+
+<p>Specifying either a width or height will cause the other dimension to adjust automatically to maintain the aspect ratio of the image. As an example, if we want an image to be 200 pixels tall but are less specifically concerned about how wide it is, we can set the height to 200 pixels, and the width of the image will adjust accordingly. Setting both a width and height will work also; however, doing so may break the aspect ratio of an image, causing it to appear distorted.</p>
+
+<h2 id="veera">Positioning Images</h2>
+
+<p>We can use a number of different approaches to position images on a web page. By default images are positioned as inline-level elements; however, their positions may be changed using CSS, specifically the float, display, and box model properties, including padding, border, and margin.</p>
+
+<h2 id="veera">Inline Positioning Images</h2>
+<p>The element is by default an inline-level element. Adding an image without any styles to a page will position that image within the same line as the content that surrounds it. Additionally, the height of the line in which an image appears will be changed to match the height of the image, which can create large vertical gaps within that line.</p>
+
+<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/29841/dog.jpg" alt="" height="80%" width="100%">
+
+</div>
+   
+    
+</body>
+</html>

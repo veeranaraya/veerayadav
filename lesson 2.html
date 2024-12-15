@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML & CSS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <aside class="sidebar-container">
+        <div class="sidebar-center wrapper">
+          <div class="side-header">
+          
+            </div>
+            
+          </div>
+          <div class="sidebar-content">
+            <div class="sidebar-links-main paddingTopMobile-fifty">
+              <ol class="sidebar"><br><br>
+                <li><a class="heading" href="./index.html.html" ><h1>HTML & CSS</h1></a></li><br>
+                <li><a class="nav-link" href="./lesson 1.html">Lesson 1 <br> Building Your First Web Page</a></li><br>
+                <li><a class="nav-link" href="./lesson 2.html">Lesson 2 <br>Getting to Know HTML</a></li><br>
+                <li><a class="nav-link" href="./lesson 3.html">Lesson 3 <br> Getting to Know CSS</a></li><br>
+                <li><a class="nav-link" href="./lesson 4.html">Lesson 4 <br>Opening the Box Model</a></li><br>
+                <li><a class="nav-link" href="./lesson 5.html">Lesson 5 <br> Positioning Content</a></li><br>
+                <li><a class="nav-link" href="./lesson 6.html">Lesson 6 <br> Working with Typography</a></li><br>
+                <li><a class="nav-link" href="./lesson 7.html">Lesson 7 <br> Setting Backgrounds & Gradients</a></li><br>
+                <li><a class="nav-link" href="./lesson 8.html">Lesson 8 <br> Creating Lists</a></li><br>
+                <li><a class="nav-link" href="./lesson 9.html">Lesson 9 <br> Adding Media</a></li><br>
+                <li><a class="nav-link" href="./lesson 10.html">Lesson 10 <br> Building Forms</a></li><br>
+                <li>Learn to Code HTML & CSS is <br> written by designer & front-end <br> developer Shay Howe.</li><br><br>
+                <li>Checkout Learn to Code Advanced <br> HTML & CSS for a deeper look at <br> front-end design & development.</li><br><br>
+                <li>Want to learn to more HTML & CSS, <br> or study other topics? Find the <br> right course for you.</li><br><br>
+                <li><input type="text" placeholder="Get Course Recommendations"></li><br><br>
+              </ol>
+            </div>
+            </div>
+        </div>
+      </aside>
+   <div class="content">
+    <p>Lesson 2</p>
+    <h1>Getting to Know HTML</h1>
+    <p>When it comes to building layouts and positioning content on a page there are a handful <br>
+       of different techniques to use. Which technique to use largely depends on the content <br>
+        and the goals of the page, as some techniques may be better than others.</p>
+
+<p>For example, the ability to float elements side by side provides a nice, clean layout that <br>
+   is receptive to the different elements on a page. However, when more strict control <br>
+    is needed, elements may be positioned using other techniques, including relative <br>
+     or absolute positioning.</p>
+
+<p>In this lesson, we’ll start by taking a look at how to contain floats. Following that, we’ll <br>
+   cover more detailed positioning techniques, including how to precisely position <br>
+    elements on both the x and y axis as well as the z axis.</p>
+
+    <h1 id="veera">Semantics Overview</h1>
+<p>So what exactly are semantics? Semantics within HTML is the practice of giving content <br>
+   on the page meaning and structure by using the proper element. Semantic code <br>
+    describes the value of content on a page, regardless of the style or appearance of that <br>
+     content. There are several benefits to using semantic elements, including enabling <br>
+      computers, screen readers, search engines, and other devices to adequately read and <br>
+       understand the content on a web page. Additionally, semantic HTML is easier to <br>
+        manage and work with, as it shows clearly what each piece of content is about.</p>
+
+<p>Moving forward, as new elements are introduced, we’ll talk about what those elements <br>
+   actually mean and the type of content they best represent. Before we do that, though, <br>
+    let’s look at two elements that actually don’t hold any semantic <br>
+       value. They exist for styling purposes only.</p>
+
+<h1>Identifying Divisions & Spans</h1>
+ <p>Divisions are HTML elements that act as containers solely for <br>
+   styling purposes. As generic containers, they do not come with any overarching <br>
+    meaning or semantic value. Paragraphs are semantic in that content wrapped within a <br>
+     <p> element is known and understood as a paragraph. do not hold <br>
+       any such meaning and are simply containers.</p>
+
+      <h1> Using Text-Based Elements</h1>
+ <p>Many different forms of media and content exist online; however, text is predominant. <br>
+   Accordingly, there are a number of different elements for displaying text on a web page. <br>
+    For now we’ll focus on the more popular elements, including headings, paragraphs, bold <br>
+     text to show importance, and italics for emphasis. Later, within Lesson 6, “Working with <br>
+      Typography,” we’ll take a closer look at how to style text.</p>
+
+  <h3 id="veera">Headings</h3>
+<p>Headings are block-level elements, and they come in six different rankings, <br>
+   through. Headings help to quickly break up content and establish hierarchy, and <br>
+     they are key identifiers for users reading a page. They also help search engines to index <br>
+      and determine the content on a page.</p>
+
+<p>Headings should be used in an order that is relevant to the content of a page. The primary heading of a page or section should be marked up with an  element, and subsequent headings should use elements as necessary.</p>
+
+<p>Each heading level should be used where it is semantically valued, and should not be used to make text bold or big—there are other, better ways to do that.</p>
+
+<p>Here is an example of HTML for all the different heading levels and the resulting display on a web page.</p>
+
+    <div>
+      <table border="1">
+        <tr>
+          <th>Tag names</th>
+          <th>Tag size</th>
+        </tr>
+        <tr>
+          <td>h1</td>
+          <td>32px</td>
+        </tr>
+        <tr>
+          <td>h2</td>
+          <td>24px</td>
+        </tr>
+        <tr>
+          <td>h3</td>
+          <td>18.72px</td>
+        </tr>
+        <tr>
+          <td>h4</td>
+          <td>16px</td>
+        </tr>
+        <tr>
+          <td>h5</td>
+          <td>13.28px</td>
+        </tr>
+        <tr>
+          <td>h6</td>
+          <td>10.72px</td>
+        </tr>
+      </table>
+    </div>
+   </div>
+    
+</body>
+</html>

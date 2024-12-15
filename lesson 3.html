@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML & CSS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <aside class="sidebar-container">
+        <div class="sidebar-center wrapper">
+          <div class="side-header">
+          
+            </div>
+            
+          </div>
+          <div class="sidebar-content">
+            <div class="sidebar-links-main paddingTopMobile-fifty">
+              <ol class="sidebar"><br><br>
+                <li><a class="heading" href="./index.html.html" ><h1>HTML & CSS</h1></a></li><br>
+                <li><a class="nav-link" href="./lesson 1.html">Lesson 1 <br> Building Your First Web Page</a></li><br>
+                <li><a class="nav-link" href="./lesson 2.html">Lesson 2 <br>Getting to Know HTML</a></li><br>
+                <li><a class="nav-link" href="./lesson 3.html">Lesson 3 <br> Getting to Know CSS</a></li><br>
+                <li><a class="nav-link" href="./lesson 4.html">Lesson 4 <br>Opening the Box Model</a></li><br>
+                <li><a class="nav-link" href="./lesson 5.html">Lesson 5 <br> Positioning Content</a></li><br>
+                <li><a class="nav-link" href="./lesson 6.html">Lesson 6 <br> Working with Typography</a></li><br>
+                <li><a class="nav-link" href="./lesson 7.html">Lesson 7 <br> Setting Backgrounds & Gradients</a></li><br>
+                <li><a class="nav-link" href="./lesson 8.html">Lesson 8 <br> Creating Lists</a></li><br>
+                <li><a class="nav-link" href="./lesson 9.html">Lesson 9 <br> Adding Media</a></li><br>
+                <li><a class="nav-link" href="./lesson 10.html">Lesson 10 <br> Building Forms</a></li><br>
+                <li>Learn to Code HTML & CSS is <br> written by designer & front-end <br> developer Shay Howe.</li><br><br>
+                <li>Checkout Learn to Code Advanced <br> HTML & CSS for a deeper look at <br> front-end design & development.</li><br><br>
+                <li>Want to learn to more HTML & CSS, <br> or study other topics? Find the <br> right course for you.</li><br><br>
+                <li><input type="text" placeholder="Get Course Recommendations"></li><br><br>
+              </ol>
+            </div>
+               </div>
+        </div>
+      </aside>
+   <div class="content">
+    <p>Lesson 3</p>
+    <h1 id="vee">Getting to Know CSS</h1>
+    <p>CSS is a complex language that packs quite a bit of power.</p>
+
+  <p> It allows us to add layout and design to our pages, and it allows us to share those styles from element to element and page to page. Before we can unlock all of its features, though, there are a few aspects of the language we must fully understand.</p>
+      
+<p>First, it’s crucial to know exactly how styles are rendered. Specifically, we’ll need to know how different types of selectors work and how the order of those selectors can affect how our styles are rendered. We’ll also want to understand a few common property values that continually appear within CSS, particularly those that deal with color and length.</p>
+      
+<p> Let’s look under the hood of CSS to see exactly what is going on.</p>
+
+<h2 id="veera">The Cascade</h2>
+<p>We’ll begin breaking down exactly how styles are rendered by looking at what is known as the cascade and studying a few examples of the cascade in action. Within CSS, all styles cascade from the top of a style sheet to the bottom, allowing different styles to be added or overwritten as the style sheet progresses.</p>
+
+<p>For example, say we select all paragraph elements at the top of our style sheet and set their background color to orange and their font size to 24 pixels. Then towards the bottom of our style sheet, we select all paragraph elements again and set their background color to green, as seen here.</p>
+
+<p>Because the paragraph selector that sets the background color to green comes after the paragraph selector that sets the background color to orange, it will take precedence in the cascade. All of the paragraphs will appear with a green background. The font size will remain 24 pixels because the second paragraph selector didn’t identify a new font size.</p>
+
+<h2 id="veera">Cascading Properties</h2>
+<p>The cascade also works with properties inside individual selectors. Again, for example, say we select all the paragraph elements and set their background color to orange. Then directly below the orange background property and value declaration, we add another property and value declaration setting the background color to green, as seen here.</p>
+
+<p>Because the green background color declaration comes after the orange background color declaration, it will overrule the orange background, and, as before, our paragraphs will appear with a green background.
+
+<p>All styles will cascade from the top of our style sheet to the bottom of our style sheet. There are, however, times where the cascade doesn’t play so nicely. Those times occur when different types of selectors are used and the specificity of those selectors breaks the cascade. Let’s take a look.</p>
+
+<h1 id="vee">Calculating Specificity</h1>
+<p>Every selector in CSS has a specificity weight. A selector’s specificity weight, along with its placement in the cascade, identifies how its styles will be rendered.</p>
+
+<p>In Lesson 1, “Building Your First Web Page,” we talked about three different types of selectors: the type, class, and ID selectors. Each of these selectors has a different specificity weight.</p>
+
+<p>The type selector has the lowest specificity weight and holds a point value of 0-0-1. The class selector has a medium specificity weight and holds a point value of 0-1-0. Lastly, the ID selector has a high specificity weight and holds a point value of 1-0-0. As we can see, specificity points are calculated using three columns. The first column counts ID selectors, the second column counts class selectors, and the third column counts type selectors.</p>
+
+<h2 id="veera">Colors</h2>
+<p>All color values within CSS are defined on an sRGB (or standard red, green, and blue) color space. Colors within this space are formed by mixing red, green, and blue color channels together, mirroring the way that televisions and monitors generate all the different colors they display. By mixing different levels of red, green, and blue, we can create millions of colors—and find nearly any color we’d like.</p>
+
+<p>Currently there are four primary ways to represent sRGB colors within CSS: keywords, hexadecimal notation, and RGB and HSL values.</p>
+
+<img src="https://learn.shayhowe.com/assets/images/courses/html-css/getting-to-know-css/photoshop-color-picker.png" alt="" width="50%" height="60%">
+
+</div>
+    
+</body>
+</html>
